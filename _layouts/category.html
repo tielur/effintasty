@@ -1,0 +1,13 @@
+---
+layout: default
+---
+{{content}}
+<ul>
+	{% assign category_url=page.permalink | split:"/" %}
+	{% assign category=category_url[2]%}
+	{% for post in site.categories[category] %}
+	<li>
+		{{post.title}}
+	</li>
+	{% endfor %}
+</ul>

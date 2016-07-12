@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="home">
+
+  <h1 class="page-heading">New & Tasty</h1>
+
+  <ul class="category-list">
+   
+    {% for category in site.categories %}
+    {% assign category_names = "" | split:"|" %}
+    {% assign category_name = (category | first) %}
+    {% if category_name == "recipes" %}
+    {% continue %}
+    {% endif %}
+    {% assign category_names=category_names | push: category_name %}
+
+     <li> <div class="categories">{{ category_names | category_links }}</div></li>
+   
+    {% endfor %}
+  </ul>
+</div>
