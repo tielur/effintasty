@@ -9,11 +9,10 @@ layout: default
 <div>{{ post.date | date_to_html_string }}</div>
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 {% if post.primaryimage %}
-
-<div class="recipetile"><img src="{{ site.baseurl }}/assets/{{post.primaryimage}}"></div>
+<img class="recipetile" src="{{ site.baseurl }}/assets/{{post.primaryimage}}">
 {% endif %}
 
 
-<div class="categories">Filed under: {{ post.categories | category_links }}</div>
+<div class="categories"><span class="label">Recipe Tags:</span> {{ post.categories | category_links }}</div>
 {% endfor %}
 </ul>
