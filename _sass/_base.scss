@@ -242,28 +242,18 @@ pre {
     width: 33%;
     text-align: center;
 }
-.prep {
-    font-size: 12px;
-    padding-top: 5px;
-    margin-bottom: 0;
-    border-top: 2px;
-    border-bottom: 2px;
-    border-right: 0;
-    border-left: 0;
-    border-style: solid;
-    border-color: $meta-color;
-    background-color: $meta-color-light;
-}
 .ingredients {
     float: left;
     width: 42%;
+    padding-top: 10px;
 }
 .directions {
     float: left;
     text-align: left;
     width: 56%;
+    padding-top: 10px;
 }
-.tags {
+.prep {
     padding-top: 5px;
     display: inline-block;
     float: left;
@@ -274,7 +264,7 @@ pre {
     border-left: 0;
     border-style: solid;
     border-color: $nav-border;
-    background-color: $nav-border-light;
+    background-color: $meta-color-light;
     }
 
 .label {
