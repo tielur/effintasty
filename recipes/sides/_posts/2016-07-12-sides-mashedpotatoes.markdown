@@ -1,9 +1,9 @@
 ---
 layout: recipe
-title:  "BLT Stuffed Tomatoes"
+title:  "Mashed Potatoes"
 date:   2016-07-12
 author: Lauren Oas
-tags: cookies, tomatoes, bacon, gluten-free
+tags: meat
 primaryimage: veggies.jpeg
 ingredients: 
 - test ingredient 1
@@ -12,9 +12,6 @@ ingredients:
 - turkey
 - lettuce
 - tomato
-servings: "80 grape tomatoes"
-preptime: "90 minutes"
-cooktime: "none!"
 ---
 This is a tasty recipe that I've worked on for quite a while. 
 
