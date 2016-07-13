@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-<div class="home">
-  <h1 class="page-heading">New & Tasty</h1>
+  <h1>New & Tasty</h1>
 
     <ul class="category-list">
      <div class="row">
@@ -16,7 +15,7 @@ layout: default
 
           {% endif %}
 
-          <h2 class="category-recipe-title">{{ post.title }}</h2></a>
+          <h5 class="category-recipe-title">{{ post.title }}</h5></a>
           
         </div>
      
@@ -25,7 +24,7 @@ layout: default
        </div>
     </ul>
 
-  <h1 class="page-heading">Browse by Tasty Type</h1>
+  <h1>Tasty Types</h1>
     <ul class="category-list">
       <!-- build category_names array -->
       {% assign category_names = "" | split:"|" %}
@@ -60,6 +59,3 @@ layout: default
 
       {% endfor %}
     </ul>
-    
-
-</div>
