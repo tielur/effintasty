@@ -7,9 +7,9 @@ layout: default
 	<ul class="posts">
 
 		{% for post in site.categories[page.category] %}
-			<div class="col-sm-4"><a href="{{ post.url }}">
+			<div class="col-sm-4"><a class="activeimage" href="{{ post.url }}">
 		{% if post.primaryimage %}
-			<img class="img-responsive img-rounded activeimage" src="{{ site.baseurl }}/assets/{{post.primaryimage}}">
+			<img class="img-responsive img-rounded" src="{{ site.baseurl }}/assets/{{post.primaryimage}}">
 		{% endif %}
 			<h2 class="category-recipe-title">{{ post.title }}</h2></a>
 			<!-- <div class="category-recipe-date">{{ post.date | date_to_long_string }}</div> -->
