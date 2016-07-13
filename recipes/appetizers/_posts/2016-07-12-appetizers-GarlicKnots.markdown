@@ -1,20 +1,21 @@
 ---
 layout: recipe
-title:  "BLT Stuffed Tomatoes"
-date:   2016-07-12
+title:  "Garlic Knots"
+date:   2016-07-10
 author: Lauren Oas
 tags: cookies, tomatoes, bacon, gluten-free
 primaryimage: veggies.jpeg
 ingredients: 
-- test ingredient 1
+- garlic
+- olive oil
 - mustard
 - mayo
 - turkey
 - lettuce
 - tomato
-servings: "80 grape tomatoes"
-preptime: "90 minutes"
-cooktime: "none!"
+servings: "24 knots"
+preptime: "2 hours"
+cooktime: "30 minutes"
 ---
 This is a tasty recipe that I've worked on for quite a while. 
 

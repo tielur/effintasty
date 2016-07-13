@@ -2,21 +2,64 @@
 layout: default
 ---
 <div class="home">
-
   <h1 class="page-heading">New & Tasty</h1>
 
-  <ul class="category-list">
-   
-    {% for category in site.categories %}
-    {% assign category_names = "" | split:"|" %}
-    {% assign category_name = (category | first) %}
-    {% if category_name == "recipes" %}
-    {% continue %}
-    {% endif %}
-    {% assign category_names=category_names | push: category_name %}
+    <ul class="category-list">
+     <div class="row">
+      {% for post in site.categories.recipes limit: 3 %}
+      
+        <div class="col-sm-4">
+          <a href="{{ post.url }}">
+          {% if post.primaryimage %}
 
-     <li> <div class="categories">{{ category_names | category_links }}</div></li>
-   
-    {% endfor %}
-  </ul>
+          <img class="img-responsive img-rounded" src="{{ site.baseurl }}/assets/{{post.primaryimage}}">
+
+          {% endif %}
+
+          <h2 class="category-recipe-title">{{ post.title }}</h2></a>
+          
+        </div>
+     
+     
+      {% endfor %}
+       </div>
+    </ul>
+
+  <h1 class="page-heading">Browse by Tasty Type</h1>
+    <ul class="category-list">
+      <!-- build category_names array -->
+      {% assign category_names = "" | split:"|" %}
+      {% for category in site.categories %}
+      {% assign category_name = (category | first) %}
+      {% if category_name == "recipes" %}
+      {% continue %}
+      {% endif %}
+      {% assign category_names=category_names | push: category_name %}
+      {% endfor %}
+
+      <!-- Sort category_names -->
+      {% assign category_names=category_names | sort %}
+
+      <!-- Build category grid -->
+      {% for category in category_names %}
+      {% assign category_array = category | split:"|" %}
+
+      {% capture modulo %}{{ forloop.index0 | mod:4 }}{% endcapture %}
+
+      <!-- Modulo to begin bootstrap row -->
+      {% if modulo == '0' or forloop.first %}
+      <div class="row">
+      {% endif %}
+
+        <div class="col-sm-3">{{ category_array | category_links }}</div>
+
+      <!-- Modulo to end bootstrap row -->
+      {% if modulo == '3' or forloop.last %}
+      </div>
+      {% endif %}
+
+      {% endfor %}
+    </ul>
+    
+
 </div>

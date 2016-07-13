@@ -1,20 +1,21 @@
 ---
 layout: recipe
-title:  "BLT Stuffed Tomatoes"
-date:   2016-07-12
+title:  "Whoopie Pies"
+date:  2016-07-12
 author: Lauren Oas
 tags: cookies, tomatoes, bacon, gluten-free
 primaryimage: veggies.jpeg
 ingredients: 
-- test ingredient 1
+- cornbread
+- jalapenos
 - mustard
 - mayo
 - turkey
 - lettuce
 - tomato
-servings: "80 grape tomatoes"
-preptime: "90 minutes"
-cooktime: "none!"
+servings: "12 whoopie pies"
+preptime: "35 minutes"
+cooktime: "24 minutes"
 ---
 This is a tasty recipe that I've worked on for quite a while. 
 
