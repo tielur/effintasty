@@ -14,12 +14,11 @@ $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     20px;
-$visited-color:    #AF421A;
-$hover-color:      #AF421A;
+$visited-color:    #Af421A;
+$hover-color:      #Af421A;
 $text-color:       #111;
-$nav-color:        #111;
 $header-title-color: #8E1212;
-$clicked-color:    #AF421A;
+$clicked-color:    #8E1212;
 $background-color: #F8F8FF;
 $brand-color:      #F7F5D2;
 $recipe-color:     #8E1212;
@@ -28,8 +27,8 @@ $footer-background:#380028;
 $nav-border:       #8E1212;
 $nav-border-light: lighten($nav-border, 65%);
 $nav-border-dark: darken($nav-border, 15%);
-$meta-color:       #133F17;
-$meta-color-light: lighten($meta-color, 75%);
+$meta-color:       #Af421A;
+$meta-color-light: lighten($meta-color, 55%);
 $meta-color-dark:  darken($meta-color, 25%);
 
 // Width of the content area
