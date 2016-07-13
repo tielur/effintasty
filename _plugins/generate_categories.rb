@@ -83,6 +83,8 @@ module Jekyll
         self.data['title']       = "#{title_prefix}#{category}"
         # Set page-type
         self.data['type']        = "category"
+        # Set category image.
+        self.data['image']       = "#{category}_image.jpeg"
         # Set the meta-description for this page.
         meta_description_prefix  = site.config['category_meta_description_prefix'] || 'Category: '
         self.data['description'] = "#{meta_description_prefix}#{category}"
@@ -212,7 +214,7 @@ module Jekyll
         category_dir = GenerateCategories.category_dir(base_dir, category)
         # Make sure the category directory begins with a slash.
         category_dir = "/#{category_dir}" unless category_dir =~ /^\//
-        "<a class='category' href='#{category_dir}/'>#{category.capitalize}</a>"
+        category_html(category, category_dir)
       end
 
       case categories.length
@@ -223,6 +225,15 @@ module Jekyll
       else
         categories.join(', ')
       end
+    end
+    
+    def category_html(category, category_dir)
+      %Q(<a href='#{category_dir}/'><img class="img-responsive img-rounded" src="/assets/#{category_image(category)}">
+        <h2 class="category-recipe-title">#{category.capitalize}</h2></a>)
+    end
+
+    def category_image(category)
+      "#{category}_image.jpeg"
     end
 
     # Outputs the post.date as formatted html, with hooks for CSS styling.
