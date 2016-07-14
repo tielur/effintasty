@@ -31,36 +31,19 @@ layout: default
 
   <h1 class="welcome-mat-room">Tasty Types</h1>
     <ul class="category-list">
-      <!-- build category_names array -->
-      {% assign category_names = "" | split:"|" %}
-      {% for category in site.categories %}
+      <div class="row">
+      <!-- Sort categories -->
+      {% assign sorted_categories = site.categories | sort %}
+      {% for category in sorted_categories %}
+      <!-- Grab the category name ( which is the first string in the array, it's [categoryName, [categoryposts...]]) -->
       {% assign category_name = (category | first) %}
+      <!-- Skip the "recipes" category -->
       {% if category_name == "recipes" %}
       {% continue %}
       {% endif %}
-      {% assign category_names=category_names | push: category_name %}
+      <!-- category_links expects an array, so we put our single category into an array -->
+      {% assign category_name_array = category_name | split: "|" %}
+      <div class="col-sm-3">{{ category_name_array] | category_links }}</div>
       {% endfor %}
-
-      <!-- Sort category_names -->
-      {% assign category_names=category_names | sort %}
-
-      <!-- Build category grid -->
-      {% for category in category_names %}
-      {% assign category_array = category | split:"|" %}
-
-      {% capture modulo %}{{ forloop.index0 | mod:4 }}{% endcapture %}
-
-      <!-- Modulo to begin bootstrap row -->
-      {% if modulo == '0' or forloop.first %}
-      <div class="row">
-      {% endif %}
-
-        <div class="col-sm-3">{{ category_array | category_links }}</div>
-
-      <!-- Modulo to end bootstrap row -->
-      {% if modulo == '3' or forloop.last %}
-      </div>
-      {% endif %}
-
-      {% endfor %}
+    </div>
     </ul>
