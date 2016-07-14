@@ -1,8 +1,7 @@
 ---
 layout: default
 ---
-<div class="home">
-  <h1 class="page-heading">New & Tasty</h1>
+  <h1>New & Tasty</h1>
 
     <ul class="category-list">
      <div class="row">
@@ -16,16 +15,21 @@ layout: default
 
           {% endif %}
 
-          <h2 class="category-recipe-title">{{ post.title }}</h2></a>
+          <h5 class="category-recipe-title">{{ post.title }}</h5></a>
           
         </div>
-     
      
       {% endfor %}
        </div>
     </ul>
 
-  <h1 class="page-heading">Browse by Tasty Type</h1>
+  
+    <div class="row welcome-mat">
+      <div class="col-sm-8"><h1>Welcome!</h1>Hello, I'm Lauren, and welcome to Effin' Tasty, a cooking site dedicated to sharing my love for effin' tasty foods and the knowledge I've collected along the way creating them. And more copy and more copy and more.</div>
+      <div class="col-sm-4"><img class= "img-responsive img-circle about" src="/assets/About_pic.jpg"></div>
+    </div>
+
+  <h1 class="welcome-mat-room">Tasty Types</h1>
     <ul class="category-list">
       <!-- build category_names array -->
       {% assign category_names = "" | split:"|" %}
@@ -60,6 +64,3 @@ layout: default
 
       {% endfor %}
     </ul>
-    
-
-</div>
