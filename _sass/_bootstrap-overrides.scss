@@ -2,7 +2,7 @@ a.label:focus, a.label:hover {
 	color: $brand-color;
 }
 a:-webkit-any-link {
-    color: -webkit-link;
+    color: $brand-color;
     text-decoration: none;
     cursor: auto;
 }

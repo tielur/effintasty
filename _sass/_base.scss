@@ -228,6 +228,11 @@ pre {
 /**
 *Homepage Formatting
 */
+.nav-label {
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: $special-font-family;
+}
 .welcome-mat {
     border-top: 3px;
     border-bottom: 3px;
