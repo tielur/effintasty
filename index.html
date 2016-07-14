@@ -19,12 +19,17 @@ layout: default
           
         </div>
      
-     
       {% endfor %}
        </div>
     </ul>
 
-  <h1>Tasty Types</h1>
+  
+    <div class="row welcome-mat">
+      <div class="col-sm-8"><h1>Welcome!</h1>Hello, I'm Lauren, and welcome to Effin' Tasty, a cooking site dedicated to sharing my love for effin' tasty foods and the knowledge I've collected along the way creating them.</div>
+      <div class="col-sm-4"><img class= "img-responsive img-circle about" src="/assets/About_pic.jpg"></div>
+    </div>
+
+  <h1 class="welcome-mat-room">Tasty Types</h1>
     <ul class="category-list">
       <!-- build category_names array -->
       {% assign category_names = "" | split:"|" %}

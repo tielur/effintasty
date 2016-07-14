@@ -221,6 +221,26 @@ pre {
     width: 85%;
     height: 85%;
 }
+.about {
+    width: 60%;
+    height: 60%;
+}
+/**
+*Homepage Formatting
+*/
+.welcome-mat {
+    border-top: 3px;
+    border-bottom: 3px;
+    border-right: 0;
+    border-left: 0;
+    border-style: solid;
+    border-color: $meta-color;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.welcome-mat-room {
+    padding-top: 10px;
+}
 
 /**
 *Recipe Formatting
@@ -264,7 +284,7 @@ pre {
     border-left: 0;
     border-style: solid;
     border-color: $nav-border;
-    background-color: $meta-color-light;
+    background-color: $nav-border-light;
     }
 
 .label {
@@ -274,7 +294,7 @@ pre {
 }
 
 /**
-*Recipe Formatting
+*Category Formatting
 */
 .category-recipe-title {
     padding-top: 15px;
