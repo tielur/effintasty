@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Effin&#39; Tasty</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://127.0.0.1:4000//</link>
+    <atom:link href="http://127.0.0.1:4000//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 04 Nov 2016 21:50:35 -0700</pubDate>
+    <lastBuildDate>Fri, 04 Nov 2016 21:50:35 -0700</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Mashed Potatoes</title>
+        <description>&lt;p&gt;This is a tasty recipe that I’ve worked on for quite a while. &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;preheat oven to 250degrees F&lt;/li&gt;
+  &lt;li&gt;mix ingredients&lt;/li&gt;
+  &lt;li&gt;put ingredients into cookies&lt;/li&gt;
+  &lt;li&gt;bake cookies for 11 minutes&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- ![My helpful screenshot](/assets/download.jpeg) --&gt;
+</description>
+        <pubDate>Tue, 12 Jul 2016 00:00:00 -0700</pubDate>
+        <link>http://127.0.0.1:4000//recipes/sides/2016/07/12/sides-mashedpotatoes.html</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000//recipes/sides/2016/07/12/sides-mashedpotatoes.html</guid>
+        
+        <category>meat</category>
+        
+        
+        <category>recipes</category>
+        
+        <category>sides</category>
+        
+      </item>
+    
+      <item>
+        <title>Whoopie Pies</title>
+        <description>&lt;p&gt;This is a tasty recipe that I’ve worked on for quite a while. &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;preheat oven to 250degrees F&lt;/li&gt;
+  &lt;li&gt;mix ingredients&lt;/li&gt;
+  &lt;li&gt;put ingredients into cookies&lt;/li&gt;
+  &lt;li&gt;bake cookies for 11 minutes&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- ![My helpful screenshot](/assets/download.jpeg) --&gt;
+</description>
+        <pubDate>Tue, 12 Jul 2016 00:00:00 -0700</pubDate>
+        <link>http://127.0.0.1:4000//recipes/appetizers/2016/07/12/appetizers-whoopiepies.html</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000//recipes/appetizers/2016/07/12/appetizers-whoopiepies.html</guid>
+        
+        <category>cookies,</category>
+        
+        <category>tomatoes,</category>
+        
+        <category>bacon,</category>
+        
+        <category>gluten-free</category>
+        
+        
+        <category>appetizers</category>
+        
+        <category>recipes</category>
+        
+      </item>
+    
+      <item>
+        <title>BLT Stuffed Tomatoes</title>
+        <description>&lt;p&gt;This is a tasty recipe that I’ve worked on for quite a while. &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;preheat oven to 250degrees F&lt;/li&gt;
+  &lt;li&gt;mix ingredients&lt;/li&gt;
+  &lt;li&gt;put ingredients into cookies&lt;/li&gt;
+  &lt;li&gt;bake cookies for 11 minutes&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- ![My helpful screenshot](/assets/download.jpeg) --&gt;
+</description>
+        <pubDate>Tue, 12 Jul 2016 00:00:00 -0700</pubDate>
+        <link>http://127.0.0.1:4000//recipes/appetizers/2016/07/12/appetizers-BLTtomatoes.html</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000//recipes/appetizers/2016/07/12/appetizers-BLTtomatoes.html</guid>
+        
+        <category>cookies,</category>
+        
+        <category>tomatoes,</category>
+        
+        <category>bacon,</category>
+        
+        <category>gluten-free</category>
+        
+        
+        <category>appetizers</category>
+        
+        <category>recipes</category>
+        
+      </item>
+    
+      <item>
+        <title>More appetizers</title>
+        <description>
+</description>
+        <pubDate>Mon, 11 Jul 2016 00:00:00 -0700</pubDate>
+        <link>http://127.0.0.1:4000//recipes/appetizers/2016/07/11/appetizers-Moreappetizers.html</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000//recipes/appetizers/2016/07/11/appetizers-Moreappetizers.html</guid>
+        
+        
+        <category>appetizers</category>
+        
+        <category>recipes</category>
+        
+      </item>
+    
+      <item>
+        <title>Garlic Knots</title>
+        <description>&lt;p&gt;This is a tasty recipe that I’ve worked on for quite a while. &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;preheat oven to 250degrees F&lt;/li&gt;
+  &lt;li&gt;mix ingredients&lt;/li&gt;
+  &lt;li&gt;put ingredients into cookies&lt;/li&gt;
+  &lt;li&gt;bake cookies for 11 minutes&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- ![My helpful screenshot](/assets/download.jpeg) --&gt;
+</description>
+        <pubDate>Sun, 10 Jul 2016 00:00:00 -0700</pubDate>
+        <link>http://127.0.0.1:4000//recipes/appetizers/2016/07/10/appetizers-GarlicKnots.html</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000//recipes/appetizers/2016/07/10/appetizers-GarlicKnots.html</guid>
+        
+        <category>cookies,</category>
+        
+        <category>tomatoes,</category>
+        
+        <category>bacon,</category>
+        
+        <category>gluten-free</category>
+        
+        
+        <category>appetizers</category>
+        
+        <category>recipes</category>
+        
+      </item>
+    
+      <item>
+        <title>Marinated Chicken</title>
+        <description>&lt;p&gt;This is a tasty recipe that I’ve worked on for quite a while. &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;preheat oven to 250degrees F&lt;/li&gt;
+  &lt;li&gt;mix ingredients&lt;/li&gt;
+  &lt;li&gt;put ingredients into cookies&lt;/li&gt;
+  &lt;li&gt;bake cookies for 11 minutes&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- ![My helpful screenshot](/assets/download.jpeg) --&gt;
+</description>
+        <pubDate>Wed, 04 May 2016 21:47:29 -0700</pubDate>
+        <link>http://127.0.0.1:4000//recipes/entrees/2016/05/04/entrees-marinatedchicken.html</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000//recipes/entrees/2016/05/04/entrees-marinatedchicken.html</guid>
+        
+        <category>meat</category>
+        
+        
+        <category>entrees</category>
+        
+        <category>recipes</category>
+        
+      </item>
+    
+      <item>
+        <title>Peanut Butter Cookies</title>
+        <description>&lt;p&gt;This is a tasty recipe that I’ve worked on for quite a while. &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;preheat oven to 250degrees F&lt;/li&gt;
+  &lt;li&gt;mix ingredients&lt;/li&gt;
+  &lt;li&gt;put ingredients into cookies&lt;/li&gt;
+  &lt;li&gt;bake cookies for 11 minutes&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- ![My helpful screenshot](/assets/download.jpeg) --&gt;
+</description>
+        <pubDate>Wed, 04 May 2016 21:47:29 -0700</pubDate>
+        <link>http://127.0.0.1:4000//recipes/desserts/2016/05/04/desserts-peanutbuttercookies.html</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000//recipes/desserts/2016/05/04/desserts-peanutbuttercookies.html</guid>
+        
+        <category>cookies</category>
+        
+        
+        <category>desserts</category>
+        
+        <category>recipes</category>
+        
+      </item>
+    
+      <item>
+        <title>Blueberry Pies</title>
+        <description>&lt;p&gt;This is a tasty recipe that I’ve worked on for quite a while. &lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;preheat oven to 250degrees F&lt;/li&gt;
+  &lt;li&gt;mix ingredients&lt;/li&gt;
+  &lt;li&gt;put ingredients into cookies&lt;/li&gt;
+  &lt;li&gt;bake cookies for 11 minutes&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!-- ![My helpful screenshot](/assets/download.jpeg) --&gt;
+</description>
+        <pubDate>Wed, 04 May 2016 21:47:29 -0700</pubDate>
+        <link>http://127.0.0.1:4000//recipes/desserts/2016/05/04/desserts-blueberrypies.html</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000//recipes/desserts/2016/05/04/desserts-blueberrypies.html</guid>
+        
+        <category>pies</category>
+        
+        
+        <category>desserts</category>
+        
+        <category>recipes</category>
+        
+      </item>
+    
+  </channel>
+</rss>
